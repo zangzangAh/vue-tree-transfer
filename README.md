@@ -24,7 +24,7 @@ npm run e2e
 npm test
 ```
 ## 示例
-[点我](http://zangzangah.github.io/vue-tree-transfer/docs/index.html).
+[点我](http://zangzangah.github.io/vue-tree-transfer/index.html).
 
 ## 截图
 
