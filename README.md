@@ -23,8 +23,8 @@ npm run e2e
 # run all tests
 npm test
 ```
-## 示例
-[点我](http://zangzangah.github.io/vue-tree-transfer/docs/index.html).
+## 示例 
+[点我](http://zangzangah.github.io/vue-tree-transfer/example/#/).
 
 ## 截图
 
