@@ -1,6 +1,6 @@
 <template>
   <div style="margin:0 auto;width:50%;">
-    <h3 style="color:#20A0FF">VUE——穿梭狂-树形结构数据选择控件</h3>
+    <h3 style="color:#20A0FF">VUE——树形结构穿梭框</h3>
     <hr>
     <div style="margin:0 auto;padding-top:40px;width:600px;height:380px;text-align: left">
 
@@ -19,11 +19,12 @@
     </div>
     <hr>
     <div style="text-align: left;font-size: 10px" >
-      <span style="font-weight: bold;color:red">组件基于VUE-ELEMENT组件</span>
-      <br>
-      示例以地域数据为例，可根据实际项目需要替换数据。仅支持两层树结构
-      <br>
-      数据格式：<span style="color:blue;font-weight: bolder">[{"id":id,"name":name,"code":code,"parent":parent,"children":[]}]</span>
+      <ul>
+        <li  style="font-weight: bold;color:red">基于VUE-ELEMENT组件</li>
+        <li>示例以地域数据为例，可根据实际项目需要替换数据（仅支持两层树结构）</li>
+        <li> 数据格式：<span style="color:blue;font-weight: bolder">[{"id":id,"name":name,"code":code,"parent":parent,"children":[]}]</span></li>
+      </ul>
+
     </div>
 
   </div>
@@ -66,15 +67,5 @@
 h1, h2 {
   font-weight: normal;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+ 
 </style>
